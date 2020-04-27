@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    .datos-contacto{
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* margin-left: 50px; */
+        padding-left: 50px;
+
+        background-color: teal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: rgba(124,252,0,1);
+        height: 50px;
+        
+    }
+    .iconos-superiores i{
+        border-radius:50% ;
+        background-color: teal;
+        color: rgba(124,252,0,1);
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin-right: 10px;
+        padding-top: 8px;
+    }
+    .iconos-superiores i:hover{
+        background-color: whitesmoke;
+        color: teal   ;
+    }
+    
