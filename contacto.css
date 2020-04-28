@@ -3,25 +3,35 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+    /* DATOS-CONTACTO----PADRE---------- */
     .datos-contacto{
         margin: 0px auto;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        /* margin-left: 50px; */
-        padding-left: 50px;
-
-        background-color: teal;
+        background-color:#FEAC5A;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
-        color: rgba(124,252,0,1);
-        height: 50px;
+        color:whitesmoke;
+        height: 80px;
         
     }
+    .correos{
+        /* display: flex;
+        justify-content: flex-start; */
+        height: 100%;
+        margin-left: 10px;
+
+    }
+    
+
     .iconos-superiores i{
+        
+
         border-radius:50% ;
         background-color: teal;
-        color: rgba(124,252,0,1);
+        color: #FD7E14;
         width: 30px;
         height: 30px;
         text-align: center;

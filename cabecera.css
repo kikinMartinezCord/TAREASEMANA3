@@ -11,7 +11,7 @@ body{
 .cabecera{
     display: flex;
     justify-content: flex-start;
-    background-color: teal;
+    background-color:#FEAC5A;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -25,7 +25,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;   
-    width: 70%;
+    width: 100%;
+    height: 40px;
      
 }
 .listas{
@@ -35,38 +36,29 @@ body{
     width: 100%;
 }
 .listas>li{
+display: flex;
+justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 10px;
+    border-right: 4px solid #FE983C;
+    height: 100%;
+    color: teal;
+}
 
-    border-radius: 5px;
-    padding: 10px;
-    border:1px solid lawngreen;
-}
-.ayuda{
-    display: flex;
-    justify-content: center;
-    width: 10%;
-}
-.ayuda>p{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    padding: 10px;
-    border:1px solid lawngreen;
-    border-radius: 5px;
-   }
-.ayuda>p:hover{
-    box-shadow: 0px 0px 10px 2px rgba(124,252,0,1);
-    color:rgba(124,252,0,1) ;
-}
+
+
 .click a{
 
     text-decoration: none;
-    color: whitesmoke;
+    color: teal;
 }
-.listas>li:hover{
+.listas>li>a:hover{
      
-    color:rgba(124,252,0,1) ;
-    border:1px solid lawngreen;
-    box-shadow: 0px 10px 1px 2px rgba(124,252,0,1);
+    color:#FE983C ;
+    border:1px solid #FE983C;
+    background-color: whitesmoke;
+
+    box-shadow: 0px 10px 1px 2px rgba(254,152,60,1);
     /* transition: "background" 32000ms; */
    
 }
@@ -77,4 +69,39 @@ width: 100%;
     width: 100%;
     /* height: 50%; */
 }
-/* @media screen and () */
+
+
+
+/* MENUUUUUUUUUU */
+
+
+
+.div-menu{
+    display: none;
+}
+
+/* ............... */
+
+
+
+
+@media screen and (max-width:1024px)
+{
+    body{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width:780px)
+{
+    body{
+        width: 100%;
+         }
+         .correos, .cabecera{
+             display: none;
+         }
+
+         .item-tarjeta{
+             display: block;
+         }
+}
