@@ -17,8 +17,8 @@
         width: 320px;
     /* width: calc((100%/3 - 10px)); */
     height: 70vh;
-    color: whitesmoke;
-    background-color: #FE983C;
+    color: #A5A5A5;
+    /* background-color: #FE983C; */
     border-radius: 15px;
     box-shadow: 2px 2px 5px 3px rgb(177, 182, 173);
     overflow: hidden;
@@ -31,7 +31,6 @@
 .acceso-card{
     margin-top: 10px;
     text-align: center;
-    color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .item-tarjeta h1{
@@ -39,7 +38,6 @@
     margin-left: 20px;
 font: bold;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: whitesmoke;
 }
 .hist-1{
     max-width: 90%;
