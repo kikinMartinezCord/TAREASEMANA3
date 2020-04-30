@@ -63,7 +63,7 @@ a{
 }
 
 .item-tarjeta:hover{
-    position: relative;
+    /* position: relative; */
     transform: scale(1.05,1.05);
     transition:all 0.3s ease 0s;
 }
