@@ -24,7 +24,6 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
     
     }
 .imagen-card img{
@@ -57,7 +56,19 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20px   ;
     text-align: left;
     font-size: 15px;
-
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
+.item-tarjeta:hover{
+    position: relative;
+    transform: scale(1.05,1.05);
+    transition:all 1s ease 0s;
+}
+.acceso-card:hover{
+    box-shadow: 3px 3px 3px 0px #A5A5A5;
+    transform: scale(1.05,1.05);
+}
 
